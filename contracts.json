@@ -1,4 +1,4 @@
-{
+
     "Testing:Testnet": {
         "domain-name": "stagingamafans", 
         "avalanche": {
@@ -27,7 +27,15 @@
                 "BaseNodeHash": "0x2c36ca5c2f315c648f49b490565ed094e37a6e8d230039597a7827db6fbea638",
                 "TestNodeHash": "0xf90a0f90ddc34eaa5169bdd6a19e95ad0aaae90dfe3fe74b216907293f394ecf"
             },
-            "core_contracts": {}
+            "core_contracts": {
+		"reputationLib": "0xe0d47268b64a2bF6D488E2C695E581fd7701Ba27"
+		"postsLib": "0xD78bbD49feF93d1Dc30d28eDBad795968b4D0D0a",
+		"proxyAdmin": "0xD5eEfBB2a29e5936D12fc0F9D94DEFE9e659e48D",
+		"posts": "0x7CB650Fe5cd6D60c279FFb597a51D453Ad71d301",
+		"TransparentUpgradeableProxy": "0x41e3fc82Cb02D453072d932e198A5C280bf822AC",
+		"nft": "0x3eCa288F6D7e4B355aF53b6Dcdb596e089E85204"
+		
+		}
         }
     },
     "Production:Mainnet": {
