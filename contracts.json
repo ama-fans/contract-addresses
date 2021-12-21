@@ -1,0 +1,41 @@
+{
+    "Testing:Testnet": {
+        "domain-name": "stagingamafans", 
+        "avalanche": {
+            "chainlink_client": {},
+            "ens_client": {},
+            "core_contracts": {}
+                    }
+                },
+    "Staging:Testnet": {
+        "domain-name": "amafans",
+        "avalanche": {
+            "chainlink_client": {
+                "Operator": "0xe2a413F95886B50Ea5e8981862D658029047cB41",
+                "ProxyAdmin": "0xD5eEfBB2a29e5936D12fc0F9D94DEFE9e659e48D",
+                "AMAClClient": "0x525DDcFf9C9c48Ec96624A91Ec217125E3Aa8A3a",
+                "TransparentUpgradeableProxy":"0xde3Aa24cDE61FEf461f7C9092B0c331b083c3975",
+                "owner": "0xFfc3CFEDe3b7fEb052B4C1299Ba161d12AeDf135",
+                "feecollector": "0xcfD00501E98341C827d2F543B7B058FA54B3D903",
+                "operator": "0x0278878dca9CA4Ef1cBF23DEA8Ded554a4590E3e"
+            },
+            "ens_client": {
+                "ENSRegistry": "0x06580e204c90b03f38361142DD02f801D418158d",
+                "BaseRegistrarImplementation": "0x2EE16B74699678EE32383fd6dC6878A4f2993d5F",
+                "PublicResolver": "0x7e4B37a4f6A1abB3289f8Ca9931DcFc05bCE283A",
+                "AMAEnsClient": "0x781baa25B5BE7Ee75EB2BdBB44e2342648Ad0d4C",
+                "BaseNodeHash": "0x2c36ca5c2f315c648f49b490565ed094e37a6e8d230039597a7827db6fbea638",
+                "TestNodeHash": "0xf90a0f90ddc34eaa5169bdd6a19e95ad0aaae90dfe3fe74b216907293f394ecf"
+            },
+            "core_contracts": {}
+        }
+    },
+    "Production:Mainnet": {
+        "domain-name": "amafans", 
+        "avalanche": {
+            "chainlink_client": {},
+            "ens_client": {},
+            "core_contracts": {}
+        }
+    }
+}
